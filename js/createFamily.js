@@ -23,4 +23,11 @@ function createFamily(mother, father) {
 
 let fullFamily = createFamily("Alla", "Alex");
 fullFamily.makeChild("Mile");
+fullFamily.makeChild("ываыва");
+fullFamily.makeChild("ываыва");
 console.log(fullFamily);
+let fullFamily2 = createFamily("Allфa", "Alываex");
+fullFamily2.makeChild("Mываile");
+fullFamily2.makeChild("ываыва");
+fullFamily2.makeChild("ываыва");
+console.log(fullFamily2);
